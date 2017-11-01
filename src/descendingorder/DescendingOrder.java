@@ -13,7 +13,7 @@ public class DescendingOrder
         String result = "";
             for(String s : broj)
                 {
-                 result = s + result; // moye npr i preko StringBulidera
+                 result = s + result; // moze npr i preko StringBulidera
                 }
         return Integer.parseInt(result); //String parsiran ponovo u Integer
     }
